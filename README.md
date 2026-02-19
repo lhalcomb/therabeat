@@ -1,8 +1,10 @@
 # TheraBeat
+*This project was developed in my Applied Projects Capstone in Spring 2026*
 
-TheraBeat is a browser-based interactive music creation platform that transforms hand gestures into sound using real-time computer vision and audio synthesis.
+TheraBeat is a browser-based interactive music web app that transforms hand gestures into sound using computer vision and audio. 
+TheraBeat introduces the idea of the **TheraZone** — a gesture-controlled interaction space that turns movement into music.
 
-Built for users familiar with music software, TheraBeat introduces **TheraZone** — a gesture-controlled interaction space that turns movement into music.
+---
 
 ## Overview
 
@@ -15,8 +17,9 @@ TheraBeat allows users to:
 - Save and export compositions
 
 The system combines real-time hand tracking, object segmentation, and web-based audio synthesis to provide a seamless creative workflow.
+
 ---
-## Core Concept: TheraZone
+## Idea of TheraZone
 
 **TheraZone** is the interactive camera-based input area where gestures are detected and translated into sound.
 
@@ -36,6 +39,7 @@ Only hand movements inside the designated TheraZone are processed.
 #### Object Segmentation & Calibration
 
 OpenCV-based segmentation helps isolate hands during setup and improve detection accuracy.
+
 ---
 ## Camera-Based Instruments
 
