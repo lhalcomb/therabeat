@@ -4,8 +4,6 @@ TheraBeat is a browser-based interactive music creation platform that transforms
 
 Built for users familiar with music software, TheraBeat introduces **TheraZone** — a gesture-controlled interaction space that turns movement into music.
 
----
-
 ## Overview
 
 TheraBeat allows users to:
@@ -18,27 +16,26 @@ TheraBeat allows users to:
 
 The system combines real-time hand tracking, object segmentation, and web-based audio synthesis to provide a seamless creative workflow.
 
----
-
 ## Core Concept: TheraZone
 
 **TheraZone** is the interactive camera-based input area where gestures are detected and translated into sound.
 
 ### Features
 
-- **Visual Metronome**  
-  A visual beat indicator helps users stay in rhythm.
+#### Visual Metronome
 
-- **Hand-Only Detection**  
-  Only hand movements inside the designated TheraZone are processed.
+A visual beat indicator helps users stay in rhythm.
+
+#### Hand-Only Detection
+ 
+Only hand movements inside the designated TheraZone are processed.
   - Movements outside the zone are ignored.
   - Non-hand objects (e.g., pets, background motion) are ignored.
   - Left and right hands are distinguished.
 
-- **Object Segmentation & Calibration**  
-  OpenCV-based segmentation helps isolate hands during setup and improve detection accuracy.
+#### Object Segmentation & Calibration
 
----
+OpenCV-based segmentation helps isolate hands during setup and improve detection accuracy.
 
 ## Camera-Based Instruments
 
