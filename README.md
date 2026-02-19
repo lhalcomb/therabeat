@@ -15,7 +15,7 @@ TheraBeat allows users to:
 - Save and export compositions
 
 The system combines real-time hand tracking, object segmentation, and web-based audio synthesis to provide a seamless creative workflow.
-
+---
 ## Core Concept: TheraZone
 
 **TheraZone** is the interactive camera-based input area where gestures are detected and translated into sound.
@@ -36,7 +36,7 @@ Only hand movements inside the designated TheraZone are processed.
 #### Object Segmentation & Calibration
 
 OpenCV-based segmentation helps isolate hands during setup and improve detection accuracy.
-
+---
 ## Camera-Based Instruments
 
 TheraBeat translates hand tracking movements into playable instruments:
