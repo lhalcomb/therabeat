@@ -6,7 +6,7 @@ TheraBeat introduces the idea of the **TheraZone** — a gesture-controlled inte
 
 ---
 
-## Overview
+### Overview
 
 TheraBeat allows users to:
 
@@ -19,47 +19,47 @@ TheraBeat allows users to:
 The system combines real-time hand tracking, object segmentation, and web-based audio synthesis to provide a seamless creative workflow.
 
 ---
-## Idea of TheraZone
+### Idea of TheraZone
 
 **TheraZone** is the interactive camera-based input area where gestures are detected and translated into sound.
 
-### Features
+#### Features
 
-#### Visual Metronome
+##### Visual Metronome
 
 A visual beat indicator helps users stay in rhythm.
 
-#### Hand-Only Detection
+##### Hand-Only Detection
  
 Only hand movements inside the designated TheraZone are processed.
   - Movements outside the zone are ignored.
   - Non-hand objects (e.g., pets, background motion) are ignored.
   - Left and right hands are distinguished.
 
-#### Object Segmentation & Calibration
+##### Object Segmentation & Calibration
 
 OpenCV-based segmentation helps isolate hands during setup and improve detection accuracy.
 
 ---
-## Camera-Based Instruments
+### Camera-Based Instruments
 
 TheraBeat translates hand tracking movements into playable instruments:
 
-### Theremin
+#### Theremin
 - Inspired by the original theremin.
 - Hand position controls pitch and frequency using camera tracking instead of electromagnetic fields.
-### Drums
+#### Drums
 - Finger-to-thumb contact triggers drum components.
 - Different gestures map to different drum pieces.
   
-### Future Iterated Instrument Ideas 
+#### Future Iterated Instrument Ideas 
 These instruments weren't developed for use in the **TheraZone** due to time on the project and lack of research for these instruments being detecting via Computer Vision for the time being (Piano, Guitar). 
 
-### Custom Gestures
+#### Custom Gestures
 Users can:
 - Create custom gesture mappings
 - Modify transitions between instruments
 - Save specific gestures per project
 
-## Tech Stack Used 
+##### Tech Stack Used 
 This project utilizes Next.js, Tone.js, MediaPipe, and OpenCV. 
